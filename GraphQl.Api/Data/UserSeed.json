@@ -1,0 +1,107 @@
+[
+  {
+    "Username": "Selena",
+    "Gender": "female",
+    "DateOfBirth": "1976-11-21",
+    "City": "Hessville",
+    "Country": "Guinea-Bissau",
+    "vehicles": [
+      {
+        "Colour": "white",
+        "Type": "Car",
+        "Model": 2018,
+        "Make": "BMW"
+      },
+      {
+        "Colour": "red",
+        "Type": "Car",
+        "Model": 2018,
+        "Make": "Audi"
+      }
+    ]
+  },
+  {
+    "Username": "Kelsey",
+    "Gender": "female",
+    "DateOfBirth": "1984-09-11",
+    "City": "Maxville",
+    "Country": "Peru",
+    "vehicles": [
+      {
+        "Colour": "red",
+        "Type": "MotorBike",
+        "Model": 2018,
+        "Make": "Tesla"
+      },
+      {
+        "Colour": "grey",
+        "Type": "MotorBike",
+        "Model": 2018,
+        "Make": "Audi"
+      }
+    ]
+  },
+  {
+    "Username": "Rosanna",
+    "Gender": "female",
+    "DateOfBirth": "1990-12-14",
+    "City": "Crayne",
+    "Country": "Equatorial Guinea",
+    "vehicles": [
+      {
+        "Colour": "grey",
+        "Type": "MotorBike",
+        "Model": 2018,
+        "Make": "Tesla"
+      },
+      {
+        "Colour": "black",
+        "Type": "MotorBike",
+        "Model": 2014,
+        "Make": "BMW"
+      }
+    ]
+  },
+  {
+    "Username": "Luz",
+    "Gender": "female",
+    "DateOfBirth": "1999-04-05",
+    "City": "Cumberland",
+    "Country": "Vanuatu",
+    "vehicles": [
+      {
+        "Colour": "white",
+        "Type": "MotorBike",
+        "Model": 2014,
+        "Make": "Toyota"
+      },
+      {
+        "Colour": "white",
+        "Type": "MotorBike",
+        "Model": 2014,
+        "Make": "Toyota"
+      }
+    ]
+  },
+  {
+    "Username": "Lora",
+    "Gender": "female",
+    "DateOfBirth": "1999-04-27",
+    "City": "Grapeview",
+    "Country": "Liberia",
+    "vehicles": [
+      {
+        "Colour": "white",
+        "Type": "MotorBike",
+        "Model": 2014,
+        "Make": "Toyota"
+      },
+      {
+        "Colour": "white",
+        "Type": "Car",
+        "Model": 2010,
+        "Make": "Toyota"
+      }
+    ]
+  }
+]
