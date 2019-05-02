@@ -46,7 +46,7 @@ namespace GraphQl.Api
 
             app.UseGraphQL<UserSchema>();
             app.UseGraphQLPlayground(new GraphQLPlaygroundOptions());
-            seeder.SeedUsers();
+            // seeder.SeedUsers();
         }
     }
 }

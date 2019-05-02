@@ -13,6 +13,7 @@ namespace GraphQl.Api.GraphQL.Types
             Field(t => t.Gender);
             Field(t => t.City);
             Field(t => t.Country);
+            Field<ListGraphType<VehicleType>>("Vehilcles", resolve: context => )
         }
     }
 }
