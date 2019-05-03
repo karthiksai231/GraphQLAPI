@@ -1,11 +1,12 @@
 using GraphQl.Api.Models;
+using GraphQl.Api.Repository;
 using GraphQL.Types;
 
 namespace GraphQl.Api.GraphQL.Types
 {
     public class UserType : ObjectGraphType<User>
     {
-        public UserType()
+        public UserType(VehicleRepository vehicleRepository)
         {
             Field(t => t.Id);
             Field(t => t.UserName);
@@ -13,7 +14,8 @@ namespace GraphQl.Api.GraphQL.Types
             Field(t => t.Gender);
             Field(t => t.City);
             Field(t => t.Country);
-            Field<ListGraphType<VehicleType>>("Vehilcles", resolve: context => )
+            Field<ListGraphType<VehicleType>>("Vehicles",
+            resolve: context => vehicleRepository.GetVehicleForUsersAsync(context.Source.Id));
         }
     }
 }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using GraphQl.Api.Data;
 using GraphQl.Api.Models;
@@ -17,7 +18,7 @@ namespace GraphQl.Api.Repository
 
         public async Task<IEnumerable<Vehicle>> GetVehicleForUsersAsync(int id)
         {
-            return await _datacontext.Vehicles.Include(x => x.UserId == id).ToListAsync();
+            return await _datacontext.Vehicles.Where(x => x.UserId == id).ToListAsync();
         }
     }
 }

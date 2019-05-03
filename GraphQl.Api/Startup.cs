@@ -29,9 +29,11 @@ namespace GraphQl.Api
             services.AddTransient<Seed>();
 
             services.AddScoped<UserRepository>();
+            services.AddScoped<VehicleRepository>();
+
+            services.AddScoped<UserSchema>();
 
             services.AddScoped<IDependencyResolver>(x => new FuncDependencyResolver(x.GetRequiredService));
-            services.AddScoped<UserSchema>();
             services.AddGraphQL(options => { options.ExposeExceptions = true; })
                 .AddGraphTypes(ServiceLifetime.Scoped);
         }

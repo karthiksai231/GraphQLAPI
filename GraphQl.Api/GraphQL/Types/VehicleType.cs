@@ -11,7 +11,7 @@ namespace GraphQl.Api.GraphQL.Types
             Field(t => t.Colour);
             Field(t => t.Make);
             Field(t => t.Model);
-            Field<VehicleTypeEnumType>("VehicleType", "The type of vehicle");
+            Field<VehicleTypeEnumType>("Type", "The type of vehicle");
         }
     }
 }

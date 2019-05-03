@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace GraphQl.Api.Models
 {
-    public enum VehicleType
+    public enum UserVehicleType
     {
         Car,
         MotorBike

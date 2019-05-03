@@ -3,11 +3,11 @@ using GraphQL.Types;
 
 namespace GraphQl.Api.GraphQL.Types
 {
-    public class VehicleTypeEnumType : EnumerationGraphType<VehicleType>
+    public class VehicleTypeEnumType : EnumerationGraphType<UserVehicleType>
     {
         public VehicleTypeEnumType()
         {
-            Name = "VehicleType";
+            Name = "Type";
             Description = "The type of vehicle";
         }
     }
